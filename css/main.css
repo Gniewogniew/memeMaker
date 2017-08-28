@@ -1,0 +1,80 @@
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #ccccff;
+}
+#mainbox{
+	margin-top: 60px;
+}
+#canvasbox{
+	float: left;
+	width: 900px;
+}
+#canvascontainer{
+	text-align: center;
+	border: 2px solid;
+	border-radius: 6px;
+	padding: 15px 0;
+}
+#canvascontainer p {
+	font-size: 35px;
+	font-family: 'Allerta Stencil', sans-serif;
+	white-space: pre-line;
+}
+#canvas{
+	background-color: #ffffff;
+}
+#operationsPanel{
+	float:left;
+	margin-left: 40px;
+	text-align: center;
+}
+#uploadImage {
+	margin-top: 30px;
+}
+#fileInput{
+	margin-top: 20px;
+	cursor: pointer;
+	border: 1px solid #9999ff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #888888;
+}
+.text{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 23px;
+	margin-top: 20px;
+}
+#textOnTop, #textOnBottom{
+	font-family: 'Allerta Stencil', sans-serif;
+	width: 220px;
+    height: 25px;
+    padding: 3px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px #888888;
+    border: 1px solid #9999ff;
+    border-radius: 5px;
+}
+#movebutton{
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+#savebutton{
+	text-decoration: none; 
+	background-color:#9999ff;
+ 	border:1px solid #660000;
+ 	border-radius:5px;
+ 	padding:12px;
+ 	font-size: 18px;
+ 	cursor: pointer;
+ 	font-family: 'Allerta Stencil', sans-serif;
+ 	box-shadow: 4px 4px 4px #888888;
+}
+#shareContainer{
+	margin-top: 20px;
+}
+.btncricle{
+	cursor: pointer;
+}
+.btntext{
+	font-family: 'Allerta Stencil', sans-serif;
+}
