@@ -1,57 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Meme Maker</title>
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
-		<div id= mainbox>
-			<div id= "canvasbox">
-				<div id= "canvascontainer">	
-					<p>Wybierz ulubiony obrazek,
-					 aby stworzyć swojego unikalnego mema. </p>
-				<canvas id="canvas" width="800" height="500"></canvas>
-				</div>
-			</div>
-			<div id= "operationsPanel">
-				<div id= "uploadImage">
-				<div class="text">Wybierz zdjęcie:</div>
-					<input id="fileInput" type="file" >
-				</div>
-				<div class= "text">Wpisz tekst:</div>
-				<div id= "topText">
-					<input id="textOnTop" placeholder="tekst na górze:">
-				</div>	
-				<div id= "bottomText">
-					<input id="textOnBottom" placeholder="tekst na dole:">
-				</div>
-				<div id= "saveFile">
-					<div class= "text">Zapisz obrazek:</div>
-					<div id="movebutton">
-					<a id="savebutton" download="canvas.png">Zapisz</a>			
-					</div>
-				</div>	
-				<div id="share">
-					<div class="text">Podziel się:</div>
-					<div id="shareContainer">
-						<div class="btncricle">
-							<img src="images/Share-FB.png" alt="" class="btncircle" title="Share on Facebook">
-							<p class="btntext">Facebook</p>
-						</div>	
-						<div class="btncricle">
-							<img src="images/Share-Twitter.png" alt="" class="btncircle" title="Share on Twitter">
-							<p class="btntext">Twitter</p>
-						</div>
-						<div class="btncricle">
-							<img src="images/Share-Email.png" alt="" class="btncircle" title="E-mail">
-							<p class="btntext">E-mail</p>
-						</div>
-					</div>
-				</div>
-				</div>
-			</div>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title>Meme Maker</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="box">
+        <div id="canvascontainer">
+            <p>Wybierz ulubiony obrazek, aby stworzyć swojego unikalnego mema.
+            </p>
+            <canvas id="MemeCanvas" width="800" height="600"></canvas>
+        </div>
+        <div id="operationsPanel">
+            <p class="text">Wybierz zdjęcie:</p>
+            <input id="fileInput" type="file">
+            <p class="text" id="textChange">Wpisz tekst:
+        </div>
+        <div id="labelInput">
+            <label>Tekst na górze:</label>
+            <input id="textOnTop">
+            <label>Tekst na dole:</label>
+            <input id="textOnBottom">
+        </div>
+        <div id="saveFile">
+            <p class="text">Zapisz obrazek:</p>
+            <div id="movebutton">
+                <a id="savebutton" download="canvas.png">Zapisz</a>
+            </div>
+        </div>
+        <div id="share">
+            <p class="text">Podziel się:</p>
+            <div id="shareContainer">
+                <div class="btncricle">
+                    <img src="images/Share-FB.png" alt="" class="btncircle  alt=" title="Share on Facebook">
+                    <p class="btntext">Facebook</p>
+                </div>
+                <div class="btncricle">
+                    <img src="images/Share-Twitter.png" alt="" class="btncircle  alt=" title="Share on Twitter">
+                    <p class="btntext">Twitter</p>
+                </div>
+                <div class="btncricle">
+                    <img src="images/Share-Email.png" alt="" class="btncircle  alt=" title="E-mail">
+                    <p class="btntext">E-mail</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
