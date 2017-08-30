@@ -2,16 +2,16 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #ccccff;
+	text-align: center;
 }
-#mainbox{
-	margin-top: 60px;
+#box{
+	max-width: 1200px;
+    	margin: auto;
+    	margin-top: 50px;
 }
-#canvasbox{
+#canvascontainer {
 	float: left;
 	width: 900px;
-}
-#canvascontainer{
-	text-align: center;
 	border: 2px solid;
 	border-radius: 6px;
 	padding: 15px 0;
@@ -21,44 +21,54 @@ body {
 	font-family: 'Allerta Stencil', sans-serif;
 	white-space: pre-line;
 }
-#canvas{
+#MemeCanvas {
 	background-color: #ffffff;
 }
-#operationsPanel{
-	float:left;
-	margin-left: 40px;
-	text-align: center;
+#operationsPanel {
+	float: right;
 }
 #uploadImage {
 	margin-top: 30px;
 }
-#fileInput{
-	margin-top: 20px;
+#fileInput {
 	cursor: pointer;
 	border: 1px solid #9999ff;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #888888;
+    	border-radius: 5px;
+    	box-shadow: 4px 4px 4px #888888;
 }
-.text{
+#textChange {
+	margin-bottom: 0px;
+    	margin-left: -45px;;
+}
+.text {
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 23px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
-#textOnTop, #textOnBottom{
+label {
 	font-family: 'Allerta Stencil', sans-serif;
-	width: 220px;
-    height: 25px;
-    padding: 3px;
-    margin-top: 15px;
-    box-shadow: 5px 5px 5px #888888;
-    border: 1px solid #9999ff;
-    border-radius: 5px;
+    	font-size: 19px;
+    	width: 220px;
+    	margin-top: 15px;
+    	margin-left: 35px;
+    	padding: 2px;
+    	float: left;
 }
-#movebutton{
+#textOnTop, #textOnBottom {
+	font-family: 'Allerta Stencil', sans-serif;
+    	width: 220px;
+    	height: 25px;
+    	padding: 3px;
+    	margin-top: 0px;
+    	box-shadow: 5px 5px 5px #888888;
+    	border: 1px solid #9999ff;
+   	 border-radius: 5px;
+}
+#movebutton {
 	margin-top: 30px;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
-#savebutton{
+#savebutton {
 	text-decoration: none; 
 	background-color:#9999ff;
  	border:1px solid #660000;
@@ -69,12 +79,12 @@ body {
  	font-family: 'Allerta Stencil', sans-serif;
  	box-shadow: 4px 4px 4px #888888;
 }
-#shareContainer{
+#shareContainer {
 	margin-top: 20px;
 }
-.btncricle{
+.btncricle {
 	cursor: pointer;
 }
-.btntext{
+.btntext {
 	font-family: 'Allerta Stencil', sans-serif;
 }
