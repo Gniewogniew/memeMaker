@@ -3,11 +3,11 @@ function textChangeListener(evt) {
     var text = evt.target.value;
 
     if (id == "textOnTop") {
-        window.topLineText = text;
+        canvas.topLineText = text;
     } else {
-        window.bottomLineText = text;
+        canvas.bottomLineText = text;
     }
-    drawMeme(window.imageSrc, window.topLineText, window.bottomLineText);
+    drawMeme(canvas.imageSrc, canvas.topLineText, canvas.bottomLineText);
 }
 
 function drawMeme(image, topLine, bottomLine) {
@@ -38,8 +38,8 @@ function loadImage(event) {
     reader.onload = function(event) {
         var image = new Image();
         image.onload = function() {
-            window.imageSrc = this;
-            drawMeme(window.imageSrc, null, null);
+            canvas.imageSrc = this;
+            drawMeme(canvas.imageSrc, null, null);
         }
         image.src = event.target.result;
     }
