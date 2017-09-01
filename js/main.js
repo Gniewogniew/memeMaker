@@ -59,4 +59,5 @@ ctx.fillStyle = "white";
 
 document.getElementById("fileInput").addEventListener("change", loadImage, false);
 document.getElementById("savebutton").addEventListener("click", saveFile, false);
-document.getElementsByClassName("textForInput").addEventListener("keyup", textChangeListener, false);
+document.getElementById("textOnTop").addEventListener("keyup", textChangeListener, false);
+document.getElementById("textOnBottom").addEventListener("keyup", textChangeListener, false);
