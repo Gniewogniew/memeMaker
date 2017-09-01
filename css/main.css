@@ -1,60 +1,56 @@
 body {
-	margin-left: 10%;
-	margin-right: 10%;
+	width:100%;
+    	max-width:1300px;
+    	height:auto;
+    	margin: auto;
 	background-color: #ccccff;
 	text-align: center;
+	margin-top: 50px;
 }
-#box{
-	max-width: 1200px;
-    	margin: auto;
-    	margin-top: 50px;
-}
-#canvascontainer {
+#canvascontainer{
 	float: left;
 	width: 900px;
 	border: 2px solid;
 	border-radius: 6px;
 	padding: 15px 0;
+	margin-left: 4%;
 }
 #canvascontainer p {
 	font-size: 35px;
 	font-family: 'Allerta Stencil', sans-serif;
 	white-space: pre-line;
 }
-#MemeCanvas {
+#MemeCanvas{
 	background-color: #ffffff;
 }
-#operationsPanel {
-	float: right;
+.stylingDiv{
+    	display: inline-block;
+   	width: 28%;
+   	max-width: 320px;
+    	margin-top: -15px;
 }
 #uploadImage {
 	margin-top: 30px;
 }
-#fileInput {
+#fileInput{
 	cursor: pointer;
 	border: 1px solid #9999ff;
     	border-radius: 5px;
     	box-shadow: 4px 4px 4px #888888;
+    	padding: 3px;
 }
-#textChange {
-	margin-bottom: 0px;
-    	margin-left: -45px;;
-}
-.text {
+.text{
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 23px;
-	margin-top: 15px;
 }
-label {
+label{
 	font-family: 'Allerta Stencil', sans-serif;
     	font-size: 19px;
     	width: 220px;
-    	margin-top: 15px;
-    	margin-left: 35px;
-    	padding: 2px;
-    	float: left;
+    	padding: 5px;
+    	display: inline-block;
 }
-#textOnTop, #textOnBottom {
+.textForInput{
 	font-family: 'Allerta Stencil', sans-serif;
     	width: 220px;
     	height: 25px;
@@ -62,13 +58,14 @@ label {
     	margin-top: 0px;
     	box-shadow: 5px 5px 5px #888888;
     	border: 1px solid #9999ff;
-   	 border-radius: 5px;
+    	border-radius: 5px;
+    	display: inline-block;
 }
-#movebutton {
+#movebutton{
 	margin-top: 30px;
-	margin-bottom: 30px;
+    	margin-bottom: 20px;
 }
-#savebutton {
+#savebutton{
 	text-decoration: none; 
 	background-color:#9999ff;
  	border:1px solid #660000;
@@ -79,12 +76,9 @@ label {
  	font-family: 'Allerta Stencil', sans-serif;
  	box-shadow: 4px 4px 4px #888888;
 }
-#shareContainer {
-	margin-top: 20px;
-}
-.btncricle {
+.btncricle{
 	cursor: pointer;
 }
-.btntext {
+.btntext{
 	font-family: 'Allerta Stencil', sans-serif;
 }
