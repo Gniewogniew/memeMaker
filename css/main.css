@@ -1,19 +1,19 @@
 body {
-	width:100%;
-    	max-width:1300px;
-    	height:auto;
-    	margin: auto;
+	margin:auto;
+	min-width:700px;
+    max-width:1250px;
 	background-color: #ccccff;
 	text-align: center;
-	margin-top: 50px;
+}
+#boxForAll{
+	display: inline-flex;
+    margin: 4%;
 }
 #canvascontainer{
-	float: left;
 	width: 900px;
 	border: 2px solid;
 	border-radius: 6px;
 	padding: 15px 0;
-	margin-left: 4%;
 }
 #canvascontainer p {
 	font-size: 35px;
@@ -23,11 +23,8 @@ body {
 #MemeCanvas{
 	background-color: #ffffff;
 }
-.stylingDiv{
-    	display: inline-block;
-   	width: 28%;
-   	max-width: 320px;
-    	margin-top: -15px;
+.controlWidget{
+    max-width: 300px;
 }
 #uploadImage {
 	margin-top: 30px;
@@ -35,9 +32,9 @@ body {
 #fileInput{
 	cursor: pointer;
 	border: 1px solid #9999ff;
-    	border-radius: 5px;
-    	box-shadow: 4px 4px 4px #888888;
-    	padding: 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #888888;
+    padding: 3px;
 }
 .text{
 	font-family: 'Allerta Stencil', sans-serif;
@@ -45,39 +42,49 @@ body {
 }
 label{
 	font-family: 'Allerta Stencil', sans-serif;
-    	font-size: 19px;
-    	width: 220px;
-    	padding: 5px;
-    	display: inline-block;
+    font-size: 19px;
+    width: 220px;
+    padding: 5px;
+    display: inline-block;
 }
 .textForInput{
 	font-family: 'Allerta Stencil', sans-serif;
-    	width: 220px;
-    	height: 25px;
-    	padding: 3px;
-    	margin-top: 0px;
-    	box-shadow: 5px 5px 5px #888888;
-    	border: 1px solid #9999ff;
-    	border-radius: 5px;
-    	display: inline-block;
+    width: 220px;
+    height: 25px;
+    padding: 3px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 5px #888888;
+    border: 1px solid #9999ff;
+    border-radius: 5px;
+    display: inline-block;
 }
 #movebutton{
 	margin-top: 30px;
-    	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 #savebutton{
+	position: relative;
 	text-decoration: none; 
 	background-color:#9999ff;
  	border:1px solid #660000;
  	border-radius:5px;
  	padding:12px;
+ 	padding-left: 30px;
+ 	padding-right:30px;
  	font-size: 18px;
  	cursor: pointer;
  	font-family: 'Allerta Stencil', sans-serif;
  	box-shadow: 4px 4px 4px #888888;
+ 	transition: all 0.5s;
+}
+#savebutton:hover {
+	background-color:#4d4dff;
+	color:#ffffff;
+	
 }
 .btncricle{
 	cursor: pointer;
+	display: inline-block;
 }
 .btntext{
 	font-family: 'Allerta Stencil', sans-serif;
