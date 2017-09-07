@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Meme Maker</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <div id="boxForAll">
-        <div id="canvascontainer">
-            <p>Wybierz ulubiony obrazek, aby stworzyć swojego unikalnego mema.
-            </p>
-            <canvas id="MemeCanvas" width="800" height="600"></canvas>
-        </div>
-        <div id="widget">
-            <div class="controlWidget">
-                <p class="text">Wybierz zdjęcie:</p>
-                <input id="fileInput" type="file">
-            </div>
-            <div class="controlWidget">
-                <p class="text" id="textChange">Wpisz tekst:</p>
-                <label>Tekst na górze:
-                    <input class="textForInput" id="textOnTop">
-                </label>
-                <label>Tekst na dole:
-                    <input class="textForInput" id="textOnBottom">
-                </label>
-            </div>
-            <div class="controlWidget">
-                <p class="text">Zapisz obrazek:</p>
-                <div id="movebutton">
-                    <a id="savebutton" download="canvas.png">Zapisz</a>
-                </div>
-            </div>
-            <div class="controlWidget">
-                <p class="text">Podziel się:</p>
-                <div class="btncricle">
-                    <img src="images/Share-FB.png" alt="" class="btncircle  alt=" title="Share on Facebook">
-                    <p class="btntext">Facebook</p>
-                </div>
-                <div class="btncricle">
-                    <img src="images/Share-Twitter.png" alt="" class="btncircle  alt=" title="Share on Twitter">
-                    <p class="btntext">Twitter</p>
-                </div>
-                <div class="btncricle">
-                    <img src="images/Share-Email.png" alt="" class="btncircle  alt=" title="E-mail">
-                    <p class="btntext">E-mail</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Meme Maker</title>
+	    <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+	    <div id="canvascontainer">
+	        <p>Wybierz ulubiony obrazek, aby stworzyć swojego unikalnego mema.
+	        </p>
+	        <canvas id="imageAndTextForMeme" width="800" height="600"></canvas>
+	    </div>
+	    <div class="widget">
+	        <p class="text">Wybierz zdjęcie:</p>
+	        <input id="fileInput" type="file">
+	    </div>
+	    <div class="widget">
+	        <p class="text" id="textChange">Wpisz tekst:</p>
+	        <label>Tekst na górze:
+	            <input class="textForInput" id="textOnTop">
+	        </label>
+	        <label>Tekst na dole:
+	            <input class="textForInput" id="textOnBottom">
+	        </label>
+	    </div>
+	    <div class="widget">
+	        <p class="text">Zapisz obrazek:</p>
+	        <div id="movebutton">
+	            <a id="savebutton" download="canvas.png">Zapisz</a>
+	        </div>
+	    </div>
+	    <div class="widget">
+	        <p class="text">Podziel się:</p>
+	        <div class="btncricle">
+	            <img src="images/Share-FB.png" alt="" class="btncircle  alt=" title="Share on Facebook">
+	            <p class="btntext">Facebook</p>
+	        </div>
+	        <div class="btncricle">
+	            <img src="images/Share-Twitter.png" alt="" class="btncircle  alt=" title="Share on Twitter">
+	            <p class="btntext">Twitter</p>
+	        </div>
+	        <div class="btncricle">
+	            <img src="images/Share-Email.png" alt="" class="btncircle  alt=" title="E-mail">
+	            <p class="btntext">E-mail</p>
+	        </div>
+	    </div>
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/main.js"></script>
+	</body>
 </html>
