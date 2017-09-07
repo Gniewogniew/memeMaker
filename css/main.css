@@ -1,30 +1,33 @@
 body {
 	margin:auto;
 	min-width:700px;
-    max-width:1250px;
+        max-width:1300px;
 	background-color: #ccccff;
 	text-align: center;
-}
-#boxForAll{
-	display: inline-flex;
-    margin: 4%;
+	margin-top: 50px;
+	width: 91%;
 }
 #canvascontainer{
 	width: 900px;
 	border: 2px solid;
-	border-radius: 6px;
-	padding: 15px 0;
+    	border-radius: 6px;
+    	padding: 15px 0;
+    	float: left;
+    	display: inline-block;
 }
 #canvascontainer p {
 	font-size: 35px;
 	font-family: 'Allerta Stencil', sans-serif;
 	white-space: pre-line;
 }
-#MemeCanvas{
+#imageAndTextForMeme{
 	background-color: #ffffff;
 }
-.controlWidget{
-    max-width: 300px;
+.widget{
+	display: inline-block;
+	width: 290px;
+	float: left;
+	min-height: 190px;
 }
 #uploadImage {
 	margin-top: 30px;
@@ -32,38 +35,36 @@ body {
 #fileInput{
 	cursor: pointer;
 	border: 1px solid #9999ff;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #888888;
-    padding: 3px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px #888888;
+	padding: 3px;
 }
 .text{
 	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 23px;
+	font-size: 22px;
 }
 label{
 	font-family: 'Allerta Stencil', sans-serif;
-    font-size: 19px;
-    width: 220px;
-    padding: 5px;
-    display: inline-block;
+	font-size: 18px;
+	width: 220px;
+	padding: 3px;
+	display: inline-block;
 }
 .textForInput{
 	font-family: 'Allerta Stencil', sans-serif;
-    width: 220px;
-    height: 25px;
-    padding: 3px;
-    margin-top: 0px;
-    box-shadow: 5px 5px 5px #888888;
-    border: 1px solid #9999ff;
-    border-radius: 5px;
-    display: inline-block;
+	width: 220px;
+	height: 25px;
+	padding: 3px;
+	margin-top: 0px;
+	box-shadow: 5px 5px 5px #888888;
+	border: 1px solid #9999ff;
+	border-radius: 5px;
+	display: inline-block;
 }
 #movebutton{
-	margin-top: 30px;
-    margin-bottom: 20px;
+	margin-top: 40px;
 }
 #savebutton{
-	position: relative;
 	text-decoration: none; 
 	background-color:#9999ff;
  	border:1px solid #660000;
@@ -80,7 +81,6 @@ label{
 #savebutton:hover {
 	background-color:#4d4dff;
 	color:#ffffff;
-	
 }
 .btncricle{
 	cursor: pointer;
