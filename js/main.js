@@ -46,7 +46,7 @@ function loadImage(event) {
     reader.readAsDataURL(event.target.files[0]);
 }
 
-var canvas = document.getElementById("MemeCanvas");
+var canvas = document.getElementById("imageAndTextForMeme");
 var ctx = canvas.getContext("2d");
 var canvasWidth = 700;
 var canvasHeight = 600;
