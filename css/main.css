@@ -1,7 +1,7 @@
 body {
 	margin:auto;
 	min-width:700px;
-        max-width:1300px;
+    	max-width:1300px;
 	background-color: #ccccff;
 	text-align: center;
 	margin-top: 50px;
@@ -9,11 +9,11 @@ body {
 }
 #canvascontainer{
 	width: 900px;
-	border: 2px solid;
-    	border-radius: 6px;
-    	padding: 15px 0;
-    	float: left;
-    	display: inline-block;
+    	border: 2px solid;
+   	border-radius: 6px;
+   	padding: 15px 0;
+   	float: left;
+   	display: inline-block;
 }
 #canvascontainer p {
 	font-size: 35px;
@@ -25,9 +25,12 @@ body {
 }
 .widget{
 	display: inline-block;
-	width: 290px;
+    	width: 290px;
+    	vertical-align: top;
+}
+#lastDivFloatLeft{
 	float: left;
-	min-height: 190px;
+    	margin-left: 1%;
 }
 #uploadImage {
 	margin-top: 30px;
@@ -35,9 +38,9 @@ body {
 #fileInput{
 	cursor: pointer;
 	border: 1px solid #9999ff;
-	border-radius: 5px;
-	box-shadow: 4px 4px 4px #888888;
-	padding: 3px;
+    	border-radius: 5px;
+    	box-shadow: 4px 4px 4px #888888;
+    	padding: 3px;
 }
 .text{
 	font-family: 'Allerta Stencil', sans-serif;
@@ -45,27 +48,26 @@ body {
 }
 label{
 	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 18px;
-	width: 220px;
-	padding: 3px;
-	display: inline-block;
+    	font-size: 18px;
+    	width: 220px;
+    	padding: 3px;
+    	display: inline-block;
 }
 .textForInput{
 	font-family: 'Allerta Stencil', sans-serif;
-	width: 220px;
-	height: 25px;
-	padding: 3px;
-	margin-top: 0px;
-	box-shadow: 5px 5px 5px #888888;
-	border: 1px solid #9999ff;
-	border-radius: 5px;
-	display: inline-block;
+    	width: 220px;
+   	height: 25px;
+    	padding: 3px;
+    	margin-top: 0px;
+    	box-shadow: 5px 5px 5px #888888;
+    	border: 1px solid #9999ff;
+    	border-radius: 5px;
+    	display: inline-block;
 }
 #movebutton{
 	margin-top: 40px;
 }
 #savebutton{
-	text-decoration: none; 
 	background-color:#9999ff;
  	border:1px solid #660000;
  	border-radius:5px;
